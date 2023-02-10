@@ -1,0 +1,180 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Alfa+Slab+One&family=Readex+Pro:wght@700&display=swap'); */
+
+@keyframes slideIn{
+    from{
+        transform: translateY(100px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    min-height: 10vh;
+}
+
+/* body{
+    background-color: black;
+    height: 100%;
+} */
+
+.welcome_animation{
+    animation-name: slideIn, fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    display: flex;
+    position: relative;
+    left: 370px;
+    width: 600px;
+    height: 100px;
+}
+
+.welcome_text{
+    position: relative;
+    bottom: 650px;
+    text-align: center;
+    display: inline;
+    color: white;
+    font-size: 30px;
+    /*Padding helps center the h1 above the paragraph. but now i killed it*/
+
+    /* transition: all 0.3s; */
+}
+
+.textCenter{
+    position: relative;
+    /* left: 100px; */
+}
+
+.links{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    min-width: 200px;
+    max-width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid;
+    position: relative;
+}
+
+.HamilaLogo{
+    position: relative;
+    left: 95px;
+    top: 2px;
+}
+
+.AboutUs{
+    position: relative;
+    right: 70px;
+}
+
+.OurMenu{
+    position: relative;
+    left: 200px;
+}
+
+.contact{
+    position: relative;
+    left: 320px;
+}
+
+.shopbasket{
+    position: relative;
+    left: 370px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: black;
+    border-radius: 10px;
+}
+
+footer{
+    height: 150px;
+    border: aqua;
+    background-color: green;
+    padding: -300vh;
+    position: relative;
+    bottom: 245px;
+    margin-top: -105px;
+    clear: both;
+}
+
+h1{
+    font-family: 'Alexandri';
+}
+
+p{
+    font-family: 'Alexandria', sans-serif;
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.images{
+    opacity: 30%;
+}
+
+.orderAnchor{
+    position: relative;
+    left: 500px;
+    top: 30px;
+    /* height: 10px; */
+    /* width: 20px; */
+    font-family: Alexandria;
+    /* size: 40px; */
+    color: yellow;
+    text-shadow: 0 0 0.5em black;
+    
+    background-color: blck;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid;
+    cursor: pointer;
+    /* border: 1px solid; */
+    padding: 0.02em 0.2em;
+    /* border-radius: 0.5em; */
+    /* box-shadow: 0 0 0.1em 0 white; */
+}
+
+/* .welcome_text:hover{
+    transform: translateY(-10px);
+} */
+
+.hamilaAdjust{
+    position: relative;
+    top: 50px;
+    left: 15px;
+}
+
+.firstpic{
+    background-image: url("HalalFood-UofT-banner.jpg");
+    opacity: 30%;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
